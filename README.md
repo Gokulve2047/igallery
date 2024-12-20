@@ -79,7 +79,7 @@ Publish the website in the given URL.
             <img src="Screenshot 2024-12-17 141628.png" width="200" height="200" onclick="openImage(this.src)">
             <img src="Screenshot 2024-12-17 141643.png" width="200" height="200" onclick="openImage(this.src)">
             <img src="Screenshot 2024-12-17 141655.png" width="200" height="200" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 141655.png" width="200" height="200" onclick="openImage(this.src)">
+            <img src="Screenshot 2024-12-17 141656.png" width="200" height="200" onclick="openImage(this.src)">
             <img src="Screenshot 2024-12-17 141711.png" width="200" height="200" onclick="openImage(this.src)">
             
         </div>
@@ -90,14 +90,14 @@ Publish the website in the given URL.
             }
         </script>
         <footer>
-            Designed & Developed by GOKUL V E)
+            Designed & Developed by GOKUL V E
         </footer>
     </body>
 </html>
 
 ```
 ## OUTPUT:
-![alt text](<goku/igallery/static/Screenshot 2024-12-17 205455.png>)
+![alt text](<goku/igallery/static/Screenshot 2024-12-20 090148.png>)
 
 
 ## RESULT:
