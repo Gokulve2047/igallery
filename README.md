@@ -26,85 +26,62 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ```
+<html>
+    <title >
+        Interactive Image Gallery
+    </title>
+    <style>
+        body {
+            font-family:Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            background-size: cover;
+            background-image: url("bg.jpg");
+        }
 
+        h1 {
+            margin-top: 20px;
+            color: rgb(10, 10, 10);
+            font-size: xx-large;
+            font-style: italic;
+        }
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Interactive Image Gallery</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif; /* Changed to generic font */
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin: 0;
-                background-color: black; /* Changed to black */
-                color: #1a8ccf;
-            }
+        .Gallery {
+            display: flex;
+            gap: 25px;
+            max-width: 800px;
+            margin-top: 200px;
+            justify-content: center;
+        }
 
-            h1 {
-                margin-top: 20px;
-                color: rgb(21, 122, 231);
-                font-size: xx-large;
-                font-style: italic;
-                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-            }
+        footer{
+            bottom:2%;
+            position: fixed;
+            width:100%;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm18eBadaqCzW5XTKA-c434AR5co6NgyoT9w&s");
+            text-align: center;
+            font-style: arial;
+            color: rgb(232, 33, 33);
+            left:0%;
+            background-size:cover;
+            padding:20px;
+            font-size:18px;
 
-            .Gallery {
-                display: flex;
-                flex-wrap: wrap; /* Allows the gallery to adjust dynamically */
-                gap: 20px;
-                max-width: 800px;
-                margin-top: 50px;
-                justify-content: center;
-            }
+        }
+    </style>
 
-            .Gallery img {
-                width: 200px;
-                height: 200px;
-                border: 3px solid #d1bf20;
-                border-radius: 10px;
-                box-shadow: 0 4px 8px rgba(230, 6, 6, 0.834);
-                cursor: pointer;
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-            }
-
-            .Gallery img:hover {
-                transform: scale(1.1); /* Zoom effect */
-                box-shadow: 0 6px 12px rgba(218, 12, 12, 0.4);
-            }
-
-            footer {
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                background-color: rgb(11, 11, 11); /* Changed to black */
-                text-align: center;
-                color: aliceblue;
-                padding: 10px 20px;
-                font-family: Arial, sans-serif;
-                font-size: 16px;
-                text-shadow: 1px 1px 2px rgb(244, 242, 242);
-            }
-
-            footer span {
-                font-weight: bold;
-            }
-        </style>
-    </head>
     <body>
-        <h1>Interactive Image Gallery</h1>
+        <h1>
+            Interactive Image Gallery</h1>
         <div class="Gallery">
-            <img src="Screenshot 2024-12-17 141628.png" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 141643.png" alt="Image 2" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 141655.png" alt="Image 3" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 141711.png" alt="Image 5" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 143546.png" alt="Image 4" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 204645.png" alt="Image 6" onclick="openImage(this.src)">
-            <img src="Screenshot 2024-12-17 205124.png" alt="Image 7" onclick="openImage(this.src)">
+            <img src="Screenshot 2024-12-17 141628.png" width="200" height="200" onclick="openImage(this.src)">
+            <img src="Screenshot 2024-12-17 141643.png" width="200" height="200" onclick="openImage(this.src)">
+            <img src="Screenshot 2024-12-17 141655.png" width="200" height="200" onclick="openImage(this.src)">
+            <img src="Screenshot 2024-12-17 141655.png" width="200" height="200" onclick="openImage(this.src)">
+            <img src="Screenshot 2024-12-17 141711.png" width="200" height="200" onclick="openImage(this.src)">
+            
         </div>
 
         <script>
@@ -112,16 +89,16 @@ Publish the website in the given URL.
                 window.open(src, "_blank");
             }
         </script>
-
         <footer>
-            Designed & Developed by <span>GOKUL V E</span>
+            Designed & Developed by GOKUL V E)
         </footer>
     </body>
 </html>
-```
 
+```
 ## OUTPUT:
 ![alt text](<goku/igallery/static/Screenshot 2024-12-17 205455.png>)
+
 
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
